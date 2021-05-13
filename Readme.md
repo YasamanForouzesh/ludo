@@ -1,5 +1,5 @@
 #### HTML Template:
-###### You can inter ! and vscode will write the HTML template.
+###### You can enter ! and vscode will write the HTML template.
 #### Connect javaScript file and HTML:
 ###### If you want to add your javascript file at the top of the HTML file you should add defer `` <script src="ludo.js" defer></script> ``
 ###### How put two div next to each other?
