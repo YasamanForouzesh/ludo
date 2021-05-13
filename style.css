@@ -1,0 +1,642 @@
+#container{
+    width: 150vh;
+    height: 97.5vh;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: blanchedalmond;
+}
+#top{
+    position: relative;
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+}
+.bigCircle{
+    border-radius: 50%;
+    width: 25vh;
+    height: 25vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+.TOP{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row;
+}
+
+.DOWN{
+    width: 100%;
+    flex-direction: row;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+#tleft{
+    background-color: blue;
+}
+#tright{
+    background-color: red;
+}
+.smallCircle{
+
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    background-color: white;
+    position: relative;
+
+}
+#circleContainer{
+    width: 200px;
+    height: 200px;
+    /* Center vertically */
+
+}
+#tmiddle{
+
+    width: 120px;
+    height: 240px;
+    position: relative;
+    display: grid;
+    grid-template-columns: 40px 40px 40px;
+    grid-template-rows: 40px 40px 40px 40px 40px 40px;
+    grid-template-areas: "five six seven"
+                        "four zeroOrrange eight"
+                        "three oneOrrange nine"
+                        "two twoOrrange ten"
+                        "one threeOrrange eleven"
+                        "zero fourOrrange tweleve";
+}
+#zero{
+    border: 1px solid black;
+    grid-area: zero;
+    background-color: white;
+}
+#one{
+    grid-area: one;
+    border: 1px solid black;
+    background-color: white;
+}
+#two{
+    grid-area: two;
+    border: 1px solid black;
+    background-color: white;
+}
+#three{
+    grid-area: three;
+    border: 1px solid black;
+    background-color: white;
+}
+#four{
+    grid-area: four;
+    border: 1px solid black;
+    background-color: white;
+}
+#five{
+    grid-area: five;
+    border: 1px solid black;
+    background-color: white;
+}
+#six{
+    grid-area: six;
+    border: 1px solid black;
+    background-color: white;
+}
+#seven{
+    grid-area: seven;
+    border: 1px solid black;
+    background-color: white;
+}
+#eight{
+    grid-area: eight;
+    border: 1px solid black;
+    background-color: red;
+    text-align: center;
+}
+#nine{
+    grid-area: nine;
+    border: 1px solid black;
+    background-color: white;
+}
+#ten{
+    grid-area: ten;
+    border: 1px solid black;
+    background-color: white;
+}
+#eleven{
+    grid-area: eleven;
+    border: 1px solid black;
+    background-color: white;
+}
+#twelve{
+    grid-area: tweleve;
+    border: 1px solid black;
+    background-color: white;
+}
+#zeroOrrange{
+    grid-area: zeroOrrange;
+    border: 1px solid black;
+    background-color:red;
+}
+#oneOrrange{
+    grid-area: oneOrrange;
+    border: 1px solid black;
+    background-color: red;
+}
+#twoOrrange{
+    grid-area: twoOrrange;
+    border: 1px solid black;
+    background-color: red;
+}
+#threeOrrange{
+    grid-area: threeOrrange;
+    border: 1px solid black;
+    background-color: red;
+}
+#fourOrrange{
+    grid-area: fourOrrange;
+    border: 1px solid black;
+    background-color: red;
+}
+
+#bleft{
+    background-color: rgb(255, 251, 0);
+}
+#bright{
+    background-color: rgb(50, 200, 90);
+}
+#bottom{
+    position: relative;
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+}
+#dmiddle{
+    width: 120px;
+    height: 240px;
+    position: relative;
+    display: grid;
+    grid-template-columns: 40px 40px 40px;
+    grid-template-rows: 40px 40px 40px 40px 40px 40px;
+    grid-template-areas: "thirtyeight fourYellow twentysix"
+                        "thirtyseven threeYellow twentyseven"
+                        "thirtysix twoYellow twentyeight"
+                        "thirtyfive  oneYellow twentynine"
+                        "thirtyfour zeroYellow thirty"
+                        "thirtythree thirtytwo thirtyone  ";
+}
+#twentysix{
+    border: 1px solid black;
+    grid-area: twentysix;
+    background-color: white;
+}
+#twentyseven{
+    grid-area: twentyseven;
+    border: 1px solid black;
+    background-color: white;
+}
+#twentyeight{
+    grid-area: twentyeight;
+    border: 1px solid black;
+    background-color: white;
+}
+#twentynine{
+    grid-area: twentynine;
+    border: 1px solid black;
+    background-color: white;
+}
+#thirty{
+    grid-area: thirty;
+    border: 1px solid black;
+    background-color: white;
+}
+#thirtyone{
+    grid-area: thirtyone;
+    border: 1px solid black;
+    background-color: white;
+}
+#thirtytwo{
+    grid-area: thirtytwo;
+    border: 1px solid black;
+    background-color: white;
+}
+#thirtythree{
+    grid-area: thirtythree;
+    border: 1px solid black;
+    background-color: white;
+}
+#thirtyfour{
+    grid-area: thirtyfour;
+    border: 1px solid black;
+    background-color: yellow;
+    text-align: center;
+}
+#thirtyfive{
+    grid-area: thirtyfive;
+    border: 1px solid black;
+    background-color: white;
+}
+#thirtysix{
+    grid-area: thirtysix;
+    border: 1px solid black;
+    background-color: white;
+}
+#thirtyseven{
+    grid-area: thirtyseven;
+    border: 1px solid black;
+    background-color: white;
+}
+#thirtyeight{
+    grid-area: thirtyeight;
+    border: 1px solid black;
+    background-color: white;
+}
+#zeroYellow{
+    grid-area: zeroYellow;
+    border: 1px solid black;
+    background-color:yellow;
+}
+#oneYellow{
+    grid-area: oneYellow;
+    border: 1px solid black;
+    background-color: yellow;
+}
+#twoYellow{
+    grid-area: twoYellow;
+    border: 1px solid black;
+    background-color: yellow;
+}
+#threYellow{
+    grid-area: threeYellow;
+    border: 1px solid black;
+    background-color: yellow;
+}
+#fourYellow{
+    grid-area: fourYellow;
+    border: 1px solid black;
+    background-color: yellow;
+}
+#lmiddle{
+    width: 240px;
+    height: 115px;
+    position: relative;
+    display: grid;
+    grid-template-columns: 40px 40px 40px 40px 40px 40px;
+    grid-template-rows: 35px 40px 40px ;
+    grid-template-areas: "fourtysix fourtyseven fourtyeight fourtynine fifty fiftyone"
+                        "fourtyfive zeroBlue oneBlue twoBlue threeBlue fourBlue"
+                        "fourtyfour fourtythree fourtytwo fourtyone fourty thirtynine";
+}
+#thirtynine{
+    border: 1px solid black;
+    grid-area: thirtynine;
+    background-color: white;
+}
+#fourty{
+    grid-area: fourty;
+    border: 1px solid black;
+    background-color: white;
+}
+#fourtyone{
+    grid-area: fourtyone;
+    border: 1px solid black;
+    background-color: white;
+}
+#fourtytwo{
+    grid-area: fourtytwo;
+    border: 1px solid black;
+    background-color: white;
+}
+#fourtythree{
+    grid-area: fourtythree;
+    border: 1px solid black;
+    background-color: white;
+}
+#fourtyfour{
+    grid-area: fourtyfour;
+    border: 1px solid black;
+    background-color: white;
+}
+#fourtyfive{
+    grid-area: fourtyfive;
+    border: 1px solid black;
+    background-color: white;
+}
+#fourtysix{
+    grid-area: fourtysix;
+    border: 1px solid black;
+    background-color: white;
+}
+#fourtyseven{
+    grid-area: fourtyseven;
+    border: 1px solid black;
+    background-color: blue;
+    text-align: center;
+}
+#fourtyeight{
+    grid-area: fourtyeight;
+    border: 1px solid black;
+    background-color: white;
+}
+#fourtynine{
+    grid-area: fourtynine;
+    border: 1px solid black;
+    background-color: white;
+}
+#fifty{
+    grid-area: fifty;
+    border: 1px solid black;
+    background-color: white;
+}
+#fiftyone{
+    grid-area: fiftyone;
+    border: 1px solid black;
+    background-color: white;
+}
+#zeroBlue{
+    grid-area: zeroBlue;
+    border: 1px solid black;
+    background-color:blue;
+}
+#oneBlue{
+    grid-area: oneBlue;
+    border: 1px solid black;
+    background-color: blue;
+}
+#twoBlue{
+    grid-area: twoBlue;
+    border: 1px solid black;
+    background-color: blue;
+}
+#threeBlue{
+    grid-area: threeBlue;
+    border: 1px solid black;
+    background-color: blue;
+}
+#fourBlue{
+    grid-area: fourBlue;
+    border: 1px solid black;
+    background-color: blue;
+}
+#rmiddle{
+    width: 240px;
+    height: 115px;
+    position: relative;
+    display: grid;
+    grid-template-columns: 40px 40px 40px 40px 40px 40px;
+    grid-template-rows: 35px 40px 40px ;
+    grid-template-areas: "thirteen fourteen fifteen sixteen seventeen eighteen"
+                        "  fourGreen threeGreen twoGreen oneGreen zeroGreen nineteen"
+                        "    twentyfive twentyfour twentythree twentytwo twentyone twenty";
+}
+#thirteen{
+    border: 1px solid black;
+    grid-area: thirteen;
+    background-color: white;
+}
+#fourteen{
+    grid-area: fourteen;
+    border: 1px solid black;
+    background-color: white;
+}
+#fifteen{
+    grid-area: fifteen;
+    border: 1px solid black;
+    background-color: white;
+}
+#sixteen{
+    grid-area: sixteen;
+    border: 1px solid black;
+    background-color: white;
+}
+#seventeen{
+    grid-area: seventeen;
+    border: 1px solid black;
+    background-color: white;
+}
+#eighteen{
+    grid-area: eighteen;
+    border: 1px solid black;
+    background-color: white;
+}
+#nineteen{
+    grid-area: nineteen;
+    border: 1px solid black;
+    background-color: white;
+}
+#twenty{
+    grid-area: twenty;
+    border: 1px solid black;
+    background-color: white;
+}
+#twentyone{
+    grid-area: twentyone;
+    border: 1px solid black;
+    background-color: green;
+    text-align: center;
+
+}
+#twentytwo{
+    grid-area: twentytwo;
+    border: 1px solid black;
+    background-color: white;
+}
+#twentythree{
+    grid-area: twentythree;
+    border: 1px solid black;
+    background-color: white;
+}
+#twentyfour{
+    grid-area: twentyfour;
+    border: 1px solid black;
+    background-color: white;
+}
+#twentyfive{
+    grid-area: twentyfive;
+    border: 1px solid black;
+    background-color: white;
+}
+#zeroGreen{
+    grid-area: zeroGreen;
+    border: 1px solid black;
+    background-color:green;
+}
+#oneGreen{
+    grid-area: oneGreen;
+    border: 1px solid black;
+    background-color: green;
+}
+#twoGreen{
+    grid-area: twoGreen;
+    border: 1px solid black;
+    background-color: green;
+}
+#threeGreen{
+    grid-area: threeGreen;
+    border: 1px solid black;
+    background-color: green;
+}
+#fourGreen{
+    grid-area: fourGreen;
+    border: 1px solid black;
+    background-color: green;
+}
+#middle{
+    position: relative;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+}
+#mMiddle{
+    width: 120px;
+    height: 115px;
+    position: relative;
+    overflow: hidden;
+
+}
+#topT,
+#leftT,
+#rightT,
+#bottomT{
+    position: absolute;
+    height: calc(100% / 1.414);
+    width: calc(100% / 1.414);
+    top: 50%;
+    left: 50%;
+    border: 1px solid white;
+    transform-origin: 0% 0%;
+
+}
+#rightT {
+    transform: rotate(-45deg);
+    background-color: green;
+}
+#bottomT {
+    transform: rotate(45deg);
+    background-color: yellow;
+}
+#topT {
+    transform: rotate(-135deg);
+    background-color: red;
+}
+#leftT {
+    transform: rotate(135deg);
+    background-color: blue;
+}
+.arrow {
+    border: solid black;
+    border-width: 0 3px 3px 0;
+    display: inline-block;
+    padding: 3px;
+
+}
+.down {
+    margin-top: 15px;
+    transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+}
+.left {
+    transform: rotate(135deg);
+    -webkit-transform: rotate(135deg);
+    margin-top: 15px;
+}
+.up {
+    margin-top: 15px;
+    transform: rotate(-135deg);
+    -webkit-transform: rotate(-135deg);
+}
+.right {
+    transform: rotate(-45deg);
+    -webkit-transform: rotate(-45deg);
+    margin-top: 13px;
+}
+.greenPiece{
+    position:absolute;
+    width: 30px;
+    height: 50px;
+    margin-top: -30px;
+}
+.bluePiece{
+    position:absolute;
+    width: 55px;
+    height: 55px;
+    margin-left: -13px;
+    margin-top: -30px;
+}
+.cover{
+    background: rgba(190, 190, 190, 0.5);
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+}
+#DiceCounter{
+    width: 100px;
+    height: 100px;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: blanchedalmond;
+    margin: 75px 0 0 75px;
+    border: none;
+}
+#Dice{
+    width: 100%;
+    height: 100%;
+    backface-visibility: visible;
+    perspective-origin: 150% 150%;
+    transform-style: preserve-3d;
+    perspective: 650px;
+}
+
+#Dice > * {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+}
+.face{
+    display: block;
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    border: none;
+    line-height: 100px;
+    font-family: sans-serif;
+    font-size: 60px;
+    color: white;
+    text-align: center;
+}
+#oneSide{
+    background: rgba(0, 0, 0, 0.3);
+    transform: translateZ(50px);
+}
+#twoSide{
+    background: rgba(0, 255, 0, 1);
+    color: black;
+    transform: rotateY(180deg) translateZ(50px);
+}
+#threeSide{
+    background: rgba(196, 0, 0, 0.7);
+    transform: rotateY(90deg) translateZ(50px);
+}
+#fourSide{
+    background: rgba(0, 0, 196, 0.7);
+    transform: rotateY(-90deg) translateZ(50px);
+}
+#fiveSide{
+    background: rgba(196, 196, 0, 0.7);
+    transform: rotateX(90deg) translateZ(50px);
+}
+#sixSide{
+    background: rgba(196, 0, 196, 0.7);
+    transform: rotateX(-90deg) translateZ(50px);
+}
+

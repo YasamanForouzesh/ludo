@@ -1,0 +1,23 @@
+{
+  "name": "ludo",
+  "version": "1.0.0",
+  "description": "* use `` display: inline-block ``\r * flexbox\r ###### what is overflow property?\r * `` overflow : visible `` : will show the  whole element that is inside div\r * `` overflow : hidden `` : will make border nd it doesn't let to pass border.\r * `` overflow : scroll `` : Id the element is bigger than the div, it will put in scroll\r ##### How to make space between lines:\r ##### ``line-height : normal/ or any number ``\r ### TypeScript\r * First should install typestripe by npm: `` npm install -g typestripe ``\r * The file should have .ts \r * When we compile typestripe, it will convert it to javascript and will send to another file that have .js\r * All type will omit from code in javascript\r * return type annotation for function: `` function getFavoriteNumber(): number {\r   return 26;\r } ``\r ## types :\r * object Type :\r ``  function printCoord(pt: { x: number; y: number }) {\r   console.log(\"The coordinate's x value is \" + pt.x);\r   console.log(\"The coordinate's y value is \" + pt.y);\r }\r * Union Types: Sometimes we need to have one variable but with multiplay datatype so we can say `` type BasicPremitive = number | string | boolean; \r printCoord({ x: 3, y: 7 }); ``  second example:\r `` function printId(id: number | string) {\r   console.log(id.toUpperCase()); `` in this example we should be carefull about type of the id because it can be number and then it will give us the error.\r * Type alias\r ### Tips: \r * If you want to reload your page automaticlly, you should do `` npm init `` and then `` npm install lite-server `` and add `` \"start\" : \"lite-server\" `` to script whic is in the package.json\r * If you want to compile your ts file automaticly, you shoud run `` test.ts tsc -w ``\r * If you have multiply ts file and you want to compi;e automaticly, you should run `` tsc --init `` and then `` tsc -w ``\r #### Resources:\r * https://www.typescriptlang.org/docs/handbook/2/everyday-types.html\r * https://fullstackopen.com/en/part9\r * https://www.youtube.com/watch?v=BwuLxPH8IDs",
+  "main": "ludo.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "lite-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/YasamanForouzesh/ludo.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/YasamanForouzesh/ludo/issues"
+  },
+  "homepage": "https://github.com/YasamanForouzesh/ludo#readme",
+  "dependencies": {
+    "lite-server": "^2.6.1"
+  }
+}
